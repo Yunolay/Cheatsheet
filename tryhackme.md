@@ -5,7 +5,7 @@ rustscan 127.0.0.1 -t 500 -b 1500 -- -A
 ## directory
 gobuster dir -u http://<RHOST> -w /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-medium.txt -t 50
 
-gobuster dir -u http://<RHOST> -w /usr/share/dirbuster/wordlists/dirb/common.txt -t 50
+gobuster dir -u http://<RHOST> -w /usr/share/dirb/wordlists/common.txt -t 50
 
 ## file
 gobuster dir -u http://<RHOST> -w /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-medium.txt -t 50 -x .txt,.html,.php
