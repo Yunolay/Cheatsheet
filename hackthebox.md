@@ -66,7 +66,9 @@ wfuzz -c -z file,/usr/share/wordlists/SecLists/Discovery/Web-Content/burp-parame
 ```
 
 # rsa
+```
 ssh-keygen -t rsa
+```
 
 # ftp
 ```
